@@ -34,7 +34,7 @@
 		6C52A07B28F422F200726A92 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		6C57974128F26DB100D9070B /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
 		6CAE83D528F2AB57007E9C4B /* SliderSmallCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSmallCollectionViewCell.swift; sourceTree = "<group>"; };
-		6CD1EFD428F0CEBF001EBFC4 /* RasitOdev6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RasitOdev6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD1EFD428F0CEBF001EBFC4 /* rasit-amazon-design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rasit-amazon-design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD1EFD728F0CEBF001EBFC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CD1EFD928F0CEBF001EBFC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6CD1EFDB28F0CEBF001EBFC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		6CD1EFCB28F0CEBF001EBFC4 = {
 			isa = PBXGroup;
 			children = (
-				6CD1EFD628F0CEBF001EBFC4 /* RasitOdev6 */,
+				6CD1EFD628F0CEBF001EBFC4 /* rasit-amazon-design */,
 				6CD1EFD528F0CEBF001EBFC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,12 +66,12 @@
 		6CD1EFD528F0CEBF001EBFC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CD1EFD428F0CEBF001EBFC4 /* RasitOdev6.app */,
+				6CD1EFD428F0CEBF001EBFC4 /* rasit-amazon-design.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6CD1EFD628F0CEBF001EBFC4 /* RasitOdev6 */ = {
+		6CD1EFD628F0CEBF001EBFC4 /* rasit-amazon-design */ = {
 			isa = PBXGroup;
 			children = (
 				6CD1EFD728F0CEBF001EBFC4 /* AppDelegate.swift */,
@@ -91,15 +91,15 @@
 				6CD1EFE228F0CEBF001EBFC4 /* LaunchScreen.storyboard */,
 				6CD1EFE528F0CEBF001EBFC4 /* Info.plist */,
 			);
-			path = RasitOdev6;
+			path = "rasit-amazon-design";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CD1EFD328F0CEBF001EBFC4 /* RasitOdev6 */ = {
+		6CD1EFD328F0CEBF001EBFC4 /* rasit-amazon-design */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CD1EFE828F0CEBF001EBFC4 /* Build configuration list for PBXNativeTarget "RasitOdev6" */;
+			buildConfigurationList = 6CD1EFE828F0CEBF001EBFC4 /* Build configuration list for PBXNativeTarget "rasit-amazon-design" */;
 			buildPhases = (
 				6CD1EFD028F0CEBF001EBFC4 /* Sources */,
 				6CD1EFD128F0CEBF001EBFC4 /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = RasitOdev6;
+			name = "rasit-amazon-design";
 			productName = RasitOdev6;
-			productReference = 6CD1EFD428F0CEBF001EBFC4 /* RasitOdev6.app */;
+			productReference = 6CD1EFD428F0CEBF001EBFC4 /* rasit-amazon-design.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CD1EFCF28F0CEBF001EBFC4 /* Build configuration list for PBXProject "RasitOdev6" */;
+			buildConfigurationList = 6CD1EFCF28F0CEBF001EBFC4 /* Build configuration list for PBXProject "rasit-amazon-design" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CD1EFD328F0CEBF001EBFC4 /* RasitOdev6 */,
+				6CD1EFD328F0CEBF001EBFC4 /* rasit-amazon-design */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RasitOdev6/Info.plist;
+				INFOPLIST_FILE = "rasit-amazon-design/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = deneme.RasitOdev6;
+				PRODUCT_BUNDLE_IDENTIFIER = "deneme.rasit-amazon-design";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -351,7 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RasitOdev6/Info.plist;
+				INFOPLIST_FILE = "rasit-amazon-design/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -362,7 +362,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = deneme.RasitOdev6;
+				PRODUCT_BUNDLE_IDENTIFIER = "deneme.rasit-amazon-design";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CD1EFCF28F0CEBF001EBFC4 /* Build configuration list for PBXProject "RasitOdev6" */ = {
+		6CD1EFCF28F0CEBF001EBFC4 /* Build configuration list for PBXProject "rasit-amazon-design" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CD1EFE628F0CEBF001EBFC4 /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CD1EFE828F0CEBF001EBFC4 /* Build configuration list for PBXNativeTarget "RasitOdev6" */ = {
+		6CD1EFE828F0CEBF001EBFC4 /* Build configuration list for PBXNativeTarget "rasit-amazon-design" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CD1EFE928F0CEBF001EBFC4 /* Debug */,

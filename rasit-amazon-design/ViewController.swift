@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     var timer : Timer?
     var currentIndex = 0
     let imgArray = ["1slider1","1slider2","1slider3","1slider4","1slider5","1slider6","1slider7","1slider8","1slider9","1slider10"]
-    let imgArraySmall = ["2slider1","2slider2","2slider3","2slider4","2slider5","2slider6","2slider7","2slider8","2slider9","2slider10","2slider11","2slider12"]
+    let imgArraySmall = ["2slider2","2slider3","2slider4","2slider6","2slider5","2slider7","2slider8","2slider9","2slider10","2slider11"]
     var firsatUrunleriListe = [FirsatUrunleri]()
     
     
@@ -152,7 +152,7 @@ extension ViewController:UICollectionViewDelegate, UICollectionViewDataSource, U
             let urun = firsatUrunleriListe[indexPath.row]
             let cell3 = sliderCollectionFirsatUrunleri.dequeueReusableCell(withReuseIdentifier: "cellFirsat", for: indexPath) as! FirsatUrunleriCollectionViewCell
             cell3.firsatUrunleriImageView.image = UIImage(named: urun.resim_adi!)
-            cell3.firsatUrunleriYuzde.text = "\(String(urun.urun_indirim!)) %"
+            cell3.firsatUrunleriYuzde.text = "%\(String(urun.urun_indirim!))"
             cell3.firsatUrunleriFiyat.text = "\(String(urun.urun_fiyat!)) TL"
             let urunFiyat = Int(urun.urun_fiyat ?? 0)
             let urunIndirim = Int(urun.urun_indirim ?? 0)
@@ -184,7 +184,7 @@ extension ViewController:UICollectionViewDelegate, UICollectionViewDataSource, U
             return 0
         }
         if collectionView == sliderCollectionSmall {
-            return 20
+            return 16
         }
         if collectionView == sliderCollectionFirsatUrunleri {
             return 10
@@ -194,7 +194,7 @@ extension ViewController:UICollectionViewDelegate, UICollectionViewDataSource, U
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         if collectionView == sliderCollectionSmall {
-            return UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+            return UIEdgeInsets(top: 0, left: 7, bottom: 0, right: 7)
         }
         if collectionView == sliderCollectionFirsatUrunleri {
             return UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)

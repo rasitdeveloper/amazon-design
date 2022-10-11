@@ -101,7 +101,7 @@
                                 <rect key="frame" x="20" y="346" width="374" height="26"/>
                             </pageControl>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fRg-a5-Yp8">
-                                <rect key="frame" x="0.0" y="405" width="414" height="123.5"/>
+                                <rect key="frame" x="6" y="405" width="408" height="123.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Moc-9M-tTX">
                                     <size key="itemSize" width="85" height="95"/>
@@ -117,7 +117,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="85" height="95"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ceE-pg-7BR">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ceE-pg-7BR">
                                                     <rect key="frame" x="0.0" y="0.0" width="85" height="95"/>
                                                 </imageView>
                                             </subviews>
@@ -135,7 +135,7 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amazon Prime Türkiye'de" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OR-ca-Cg9">
-                                <rect key="frame" x="10" y="382" width="254" height="23"/>
+                                <rect key="frame" x="15" y="382" width="249" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -144,7 +144,7 @@
                                 <rect key="frame" x="0.0" y="528.5" width="414" height="284.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Günün Fırsatları" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9J-zu-7Ih">
-                                        <rect key="frame" x="12" y="10" width="152" height="24"/>
+                                        <rect key="frame" x="15" y="10" width="149" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -173,9 +173,9 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3Z-ss-faE">
-                                                            <rect key="frame" x="5" y="105" width="39.5" height="19.5"/>
+                                                            <rect key="frame" x="5" y="105" width="41.5" height="19.5"/>
                                                             <color key="backgroundColor" systemColor="systemRedColor"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -224,7 +224,7 @@
                                         </cells>
                                     </collectionView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nq-Qb-YIR">
-                                        <rect key="frame" x="-20" y="249.5" width="194" height="35"/>
+                                        <rect key="frame" x="-12" y="249.5" width="186" height="35"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Tüm fırsatları gör">
                                             <color key="baseForegroundColor" systemColor="systemMintColor"/>
@@ -233,13 +233,13 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
-                                    <constraint firstItem="0Nq-Qb-YIR" firstAttribute="leading" secondItem="oLc-Dn-Gwu" secondAttribute="leading" constant="-20" id="1ue-Qf-ftA"/>
+                                    <constraint firstItem="0Nq-Qb-YIR" firstAttribute="leading" secondItem="oLc-Dn-Gwu" secondAttribute="leading" constant="-12" id="1ue-Qf-ftA"/>
                                     <constraint firstItem="eux-oa-r7i" firstAttribute="leading" secondItem="oLc-Dn-Gwu" secondAttribute="leading" constant="5" id="8rI-x8-Its"/>
                                     <constraint firstItem="0Nq-Qb-YIR" firstAttribute="trailing" secondItem="oLc-Dn-Gwu" secondAttribute="trailing" constant="-240" id="Gm8-rd-eqp" userLabel="Tüm fırsatları gör.trailing = trailing + 240"/>
                                     <constraint firstItem="eux-oa-r7i" firstAttribute="top" secondItem="S9J-zu-7Ih" secondAttribute="bottom" constant="5" id="Of6-vT-ao0"/>
                                     <constraint firstItem="S9J-zu-7Ih" firstAttribute="trailing" secondItem="oLc-Dn-Gwu" secondAttribute="trailing" constant="-250" id="VQd-74-6mW"/>
                                     <constraint firstItem="0Nq-Qb-YIR" firstAttribute="bottom" secondItem="oLc-Dn-Gwu" secondAttribute="bottom" id="kNT-ew-raG" userLabel="Tüm fırsatları gör.bottom = bottom + 5"/>
-                                    <constraint firstItem="S9J-zu-7Ih" firstAttribute="leading" secondItem="oLc-Dn-Gwu" secondAttribute="leading" constant="12" id="pKn-L2-vKL"/>
+                                    <constraint firstItem="S9J-zu-7Ih" firstAttribute="leading" secondItem="oLc-Dn-Gwu" secondAttribute="leading" constant="15" id="pKn-L2-vKL"/>
                                     <constraint firstItem="eux-oa-r7i" firstAttribute="bottom" secondItem="0Nq-Qb-YIR" secondAttribute="top" id="uD9-bQ-C5f"/>
                                     <constraint firstItem="eux-oa-r7i" firstAttribute="trailing" secondItem="oLc-Dn-Gwu" secondAttribute="trailing" constant="-10" id="uda-7z-VBl" userLabel="Collection View.trailing = trailing + 5"/>
                                     <constraint firstItem="S9J-zu-7Ih" firstAttribute="top" secondItem="oLc-Dn-Gwu" secondAttribute="top" constant="10" id="w9a-xM-56B"/>
@@ -251,7 +251,7 @@
                         <constraints>
                             <constraint firstItem="yaP-HW-CLx" firstAttribute="top" secondItem="yXa-FJ-dhz" secondAttribute="bottom" id="2NC-oi-gIP"/>
                             <constraint firstItem="yaP-HW-CLx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3GW-9v-yPL"/>
-                            <constraint firstItem="4OR-ca-Cg9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="6so-8s-FHF"/>
+                            <constraint firstItem="4OR-ca-Cg9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="6so-8s-FHF"/>
                             <constraint firstItem="oLc-Dn-Gwu" firstAttribute="top" secondItem="fRg-a5-Yp8" secondAttribute="bottom" id="BJ4-0u-XNh"/>
                             <constraint firstItem="fRg-a5-Yp8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ENj-7s-UBp"/>
                             <constraint firstItem="FG4-hQ-0st" firstAttribute="top" secondItem="yaP-HW-CLx" secondAttribute="bottom" constant="-20" id="FGQ-bO-bV8"/>
@@ -265,7 +265,7 @@
                             <constraint firstItem="fRg-a5-Yp8" firstAttribute="top" secondItem="4OR-ca-Cg9" secondAttribute="bottom" id="UST-qs-Aby"/>
                             <constraint firstItem="oLc-Dn-Gwu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WKk-Rj-UaC"/>
                             <constraint firstItem="pcv-jv-Cli" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZVw-wC-oZU"/>
-                            <constraint firstItem="fRg-a5-Yp8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bRv-ie-OeU"/>
+                            <constraint firstItem="fRg-a5-Yp8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="6" id="bRv-ie-OeU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4OR-ca-Cg9" secondAttribute="trailing" constant="150" id="dPJ-n9-Y6r"/>
                             <constraint firstItem="FG4-hQ-0st" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-20" id="eRq-l7-1Ex"/>
                             <constraint firstItem="4OR-ca-Cg9" firstAttribute="top" secondItem="FG4-hQ-0st" secondAttribute="bottom" constant="10" id="fxa-8R-cvj"/>
@@ -339,7 +339,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkW-5F-qqC">
-                                        <rect key="frame" x="308" y="10" width="50" height="34"/>
+                                        <rect key="frame" x="309" y="10" width="49" height="34"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="bell" catalog="system">
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
